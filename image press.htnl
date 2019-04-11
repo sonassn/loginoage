@@ -6,3 +6,41 @@
 </a>
 </html>
 </body>
+
+
+
+<html>
+<body>
+    <input type="button" id="b1" value="show"><br><br>
+	<input type="button" id="b2" value="hide"><br><br>
+	<p id="p1"> "This is me"</p>
+	<p id="p2"> "show me"</p>
+	<img src="C:\Users\SSN\Pictures\Camera Roll\sona.jpg">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script>
+	$(document).ready(function()
+	{
+		 $("#b1").click(function()
+			{
+				$("img").show();
+			});
+		 $("#b2").click(function()
+			{
+				$("img").hide();
+			});
+		 $("#p1").click(function()
+			{
+				$("#p1").show();
+			});
+		 $("#p2").click(function()
+			{
+				$("#p2").hide();
+			});	
+		 	
+	});
+			 
+</script>
+</body>
+</html>		
+	
+	
