@@ -1,6 +1,7 @@
 <html>
 <body>
 <a href="https://www.w3schools.com">
+<input type="text" value="c" name="language">
 <img src="file:///C:/Users/SSN/Pictures/Camera Roll/sona.jpg">
 </a>
 </html>
